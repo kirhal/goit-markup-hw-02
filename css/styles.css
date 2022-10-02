@@ -1,0 +1,18 @@
+body {
+  background-color: #fff;
+  color: #212121;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.logo {
+  color: #000000;
+}
+
+.logo-word {
+  color: #2196f3;
+}
