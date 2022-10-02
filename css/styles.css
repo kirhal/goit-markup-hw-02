@@ -2,6 +2,7 @@
 body {
   background-color: #fff;
   color: #212121;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -17,6 +18,7 @@ footer {
 /* Specific rules */
 .logo {
   color: #000000;
+  font-family: 'Raleway', sans-serif;
 }
 
 .logo-word {
@@ -28,7 +30,6 @@ footer {
 }
 .hero-section > h1 {
   text-transform: uppercase;
-  text-align: center;
 }
 .site-nav a {
   color: #212121;
