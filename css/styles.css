@@ -13,9 +13,12 @@ li {
 footer {
   background-color: #2f303a;
 }
-nav a {
-    
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
 }
+
 /* Specific rules */
 .logo {
   color: #000000;
@@ -26,5 +29,14 @@ nav a {
 }
 .hero-section {
   background-color: #2f303a;
+  color: #fff;
+}
+.site-nav a {
+  color: #212121;
+}
+.contacts {
+  color: #757575;
+}
+.address {
   color: #fff;
 }
