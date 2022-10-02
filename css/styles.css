@@ -4,7 +4,6 @@ body {
   color: #212121;
   font-family: 'Roboto', sans-serif;
 }
-
 a {
   text-decoration: none;
 }
@@ -14,7 +13,25 @@ li {
 footer {
   background-color: #2f303a;
 }
-
+h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+}
+h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
 /* Specific rules */
 .logo {
   color: #000000;
@@ -27,13 +44,7 @@ footer {
   background-color: #2f303a;
   color: #fff;
 }
-.hero-section > h1 {
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  letter-spacing: 0.06em;
-}
+
 .site-nav a {
   color: #212121;
 }
@@ -66,6 +77,10 @@ footer {
   border-radius: 4px;
   border: 0;
   cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
 }
 .filter-buttons {
   background-color: #f5f4fa;
