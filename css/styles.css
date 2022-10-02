@@ -14,11 +14,6 @@ footer {
   background-color: #2f303a;
 }
 
-.link:hover,
-.link:focus {
-  color: #2196f3;
-}
-
 /* Specific rules */
 .logo {
   color: #000000;
@@ -39,4 +34,16 @@ footer {
 }
 .address {
   color: #fff;
+}
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+.hero-button {
+  background-color: #2196f3;
+  color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
 }
