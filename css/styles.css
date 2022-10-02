@@ -26,6 +26,9 @@ footer {
   background-color: #2f303a;
   color: #fff;
 }
+.hero-section > h1 {
+  text-transform: uppercase;
+}
 .site-nav a {
   color: #212121;
 }
@@ -57,4 +60,19 @@ footer {
 .filter-buttons:focus {
   background-color: #2196f3;
   color: #fff;
+}
+.benefits-title {
+  display: none;
+}
+.benefits-list h3 {
+  text-transform: uppercase;
+}
+.benefits-list p {
+  color: #757575;
+}
+.team-section {
+  background-color: #f5f4fa;
+}
+.team-section p {
+  color: #757575;
 }
