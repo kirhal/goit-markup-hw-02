@@ -28,6 +28,7 @@ footer {
 }
 .hero-section > h1 {
   text-transform: uppercase;
+  text-align: center;
 }
 .site-nav a {
   color: #212121;
@@ -75,4 +76,7 @@ footer {
 }
 .team-section p {
   color: #757575;
+}
+.team-photos {
+  background-color: #fff;
 }
