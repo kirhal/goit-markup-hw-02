@@ -2,17 +2,24 @@
 body {
   background-color: #fff;
   color: #212121;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Raleway', sans-serif;
 }
 
 /* Specific rules */
 .logo {
   color: #000000;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 .logo-word {
   color: #2196f3;
+}
+.logo-word-footer {
+  color: #fff;
 }
 .hero-section {
   background-color: #2f303a;
@@ -144,4 +151,17 @@ body {
 .footer-section {
   text-decoration: none;
   background-color: #2f303a;
+}
+.example-list h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.example-list p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
