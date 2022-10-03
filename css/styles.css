@@ -29,11 +29,19 @@ body {
 .site-nav a {
   color: #212121;
 }
+.site-nav .link.current {
+  color: #2196f3;
+}
 .contacts {
   color: #757575;
 }
 .address {
+  font-style: normal;
   color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .link {
   text-decoration: none;
@@ -43,6 +51,7 @@ body {
   letter-spacing: 0.02em;
 }
 .footer {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -60,7 +69,7 @@ body {
   letter-spacing: 0.06em;
 }
 .hero-button {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', inherit;
   background-color: #2196f3;
   color: #fff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
